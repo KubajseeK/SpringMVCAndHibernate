@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.*;
 
-@WebServlet(name = "TestDbServlet")
+@WebServlet(name = "TestDbServlet", urlPatterns = {"/dbserv"})
 public class TestDbServlet extends HttpServlet {
 
 
