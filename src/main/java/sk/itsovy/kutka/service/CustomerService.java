@@ -1,11 +1,10 @@
-package sk.itsovy.kutka.dao;
-
+package sk.itsovy.kutka.service;
 
 import sk.itsovy.kutka.entity.Customer;
 
 import java.util.List;
 
-public interface CustomerDAO {
+public interface CustomerService {
 
     public List<Customer> getCustomers();
 
